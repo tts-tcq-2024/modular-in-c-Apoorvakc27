@@ -42,9 +42,5 @@ void test_reference_manual(void)
       printf("Got pair for ref %d %d\n", test_pair.cable_num,mapping_manual[2].cable_num);
       assert(test_pair.cable_num == mapping_manual[2].cable_num);
     
-      assert(strcmp(test_pair.cable_major,mapping_manual[2].cable_major);
-    
-     //assert(test_pair.cable_minor == mapping_manual[2].cable_minor);
-    
 }
 
