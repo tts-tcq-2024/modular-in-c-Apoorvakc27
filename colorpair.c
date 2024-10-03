@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include "colorpair.h"
-
+#include "colormapping.h"
 
 
 
