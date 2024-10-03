@@ -1,8 +1,6 @@
 
 #include <stdio.h>
 #include <assert.h>
-#include "colormapping.h"
-#include "colorpair.h"
 #include "test_colorpair.h"
 #include "reference_manual.h"
 
