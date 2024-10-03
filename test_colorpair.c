@@ -30,7 +30,7 @@ void test_color_to_pair_number(
     assert(pair_number == expected_pair_number);
 }
 
-void test_reference_manual_test(void)
+void test_reference_manual(void)
 {
      map mapping_manual[25];
      map test_pair;
@@ -42,7 +42,7 @@ void test_reference_manual_test(void)
       printf("Got pair for ref %d %d\n", test_pair.cable_num,mapping_manual[2].cable_num);
       assert(test_pair.cable_num == mapping_manual[2].cable_num);
     
-     assert(strcmp(test_pair.cable_major,mapping_manual[2].cable_major);
+      assert(strcmp(test_pair.cable_major,mapping_manual[2].cable_major);
     
      //assert(test_pair.cable_minor == mapping_manual[2].cable_minor);
     
