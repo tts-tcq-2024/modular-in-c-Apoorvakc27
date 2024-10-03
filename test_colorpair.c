@@ -1,4 +1,4 @@
-// test_colorpair.c
+
 #include <stdio.h>
 #include <assert.h>
 #include "test_colorpair.h"
