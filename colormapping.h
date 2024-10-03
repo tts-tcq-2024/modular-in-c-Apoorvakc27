@@ -1,4 +1,4 @@
-// colormapping.h
+
 #ifndef COLOR_MAPPING_H
 #define COLOR_MAPPING_H
 
