@@ -6,13 +6,13 @@
 
 void cable_pair_mapping_manual(map *map_manual)
 {
-  ColorPair colorPair;
+  ColorPair cable_colorPairs;
   for(int i = 0 ; i<25 ;i++)
   {
     colorPair = get_color_from_pair_number(i+1);
      map_manual[i].cable_num = i+1;
-     sprintf(map_manual[i].cable_major,"%s",major_color_names[colorPair.major_color]);
-     sprintf(map_manual[i].cable_minor,"%s",minor_color_names[colorPair.minor_color]);
+     sprintf(map_manual[i].cable_major,"%s",major_color_names[cable_colorPairs.major_color]);
+     sprintf(map_manual[i].cable_minor,"%s",minor_color_names[cable_colorPairs.minor_color]);
   }
 }
 
