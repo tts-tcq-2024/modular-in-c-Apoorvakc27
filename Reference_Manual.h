@@ -5,3 +5,5 @@ typedef struct
   char cable_minor[10];
 }map;
 
+void cable_pair_mapping_manual(map *map_manual);
+
