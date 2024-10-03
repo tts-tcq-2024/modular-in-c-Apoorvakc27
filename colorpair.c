@@ -1,4 +1,4 @@
-// colorpair.c
+
 #include <stdio.h>
 #include "colorpair.h"
 
