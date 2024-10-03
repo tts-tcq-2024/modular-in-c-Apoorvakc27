@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "colorpair.h"
 
 
 typedef struct
