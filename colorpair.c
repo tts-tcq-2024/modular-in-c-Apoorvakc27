@@ -4,6 +4,8 @@
 #include "colormapping.h"
 
 
+int total_major_colors = sizeof(major_color_names) / sizeof(major_color_names[0]);
+int total_minor_colors = sizeof(minor_color_names) / sizeof(minor_color_names[0]);
 
 void color_pair_to_string(const ColorPair* color_pair, char* output_buffer) {
     sprintf(output_buffer, "%s %s",
