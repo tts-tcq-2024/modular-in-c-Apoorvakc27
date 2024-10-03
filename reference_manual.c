@@ -11,8 +11,8 @@ void cable_pair_mapping_manual(map *map_manual)
   {
     colorPair = get_color_from_pair_number(i+1);
      map_manual[i].cable_num = i+1;
-     sprintf(map_manual[i].cable_major,"%s",MajorColorNames[colorPair.majorColor]);
-     sprintf(map_manual[i].cable_minor,"%s",MinorColorNames[colorPair.minorColor]);
+     sprintf(map_manual[i].cable_major,"%s",major_color_names[colorPair.majorColor]);
+     sprintf(map_manual[i].cable_minor,"%s",minor_color_names[colorPair.minorColor]);
   }
 }
 
