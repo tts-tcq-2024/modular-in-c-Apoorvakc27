@@ -7,6 +7,7 @@ int main() {
 
     test_color_to_pair_number(BLACK, ORANGE, 12);
     test_color_to_pair_number(VIOLET, SLATE, 25);
-
+    
+    test_ference_manual_test();
     return 0;
 }
