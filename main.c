@@ -1,4 +1,4 @@
-// main.c
+
 #include "test_colorpair.h"
 
 int main() {
