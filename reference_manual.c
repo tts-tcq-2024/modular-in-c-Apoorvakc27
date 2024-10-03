@@ -3,6 +3,9 @@
 #include "colorpair.h"
 #include "reference_manual.h"
 
+extern const char* major_color_names[5];
+
+extern const char* minor_color_names[5];
 
 void cable_pair_mapping_manual(map *map_manual)
 {
