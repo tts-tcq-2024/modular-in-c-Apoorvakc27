@@ -4,7 +4,7 @@
 #include "colormapping.h"
 #include "colorpair.h"
 #include "test_colorpair.h"
-
+#include "reference_manual.h"
 
 
 void test_pair_number_to_color(int pair_number,
