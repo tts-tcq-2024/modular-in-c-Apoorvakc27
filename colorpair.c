@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include "colormapping.h"
 #include "colorpair.h"
 
 void color_pair_to_string(const ColorPair* color_pair, char* output_buffer) {
