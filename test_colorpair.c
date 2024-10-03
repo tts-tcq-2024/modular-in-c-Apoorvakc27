@@ -3,6 +3,7 @@
 #include <assert.h>
 #include "test_colorpair.h"
 
+
 void test_pair_number_to_color(int pair_number,
     enum MajorColor expected_major_color,
     enum MinorColor expected_minor_color)
@@ -26,5 +27,19 @@ void test_color_to_pair_number(
     int pair_number = get_pair_number_from_color(&color_pair);
     printf("Got pair number %d\n", pair_number);
     assert(pair_number == expected_pair_number);
+}
+
+void test_ference_manual_test(void)
+{
+     map mapping_manual[25];
+     map test_pair;
+     test_pair.cable_num = 3;
+     strcpy( test_pair.cable_major,"White");
+     strcpy( test_pair.cable_minor,"Green");
+     cable_pair_mapping_manual(mapping_manual);
+    
+     assert(test_pair.cable_major == mapping_manual[2].cable_num);
+     assert(test_pair.cable_major == mapping_manual[2].cable_major);
+     assert(test_pair.cable_major == mapping_manual[2].cable_minor);
 }
 
