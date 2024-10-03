@@ -1,3 +1,5 @@
+#ifndef COLORMAPPING_H
+#define COLORMAPPING_H
 
 const char* major_color_names[] = {
     "White", "Red", "Black", "Yellow", "Violet"
@@ -10,3 +12,4 @@ const char* minor_color_names[] = {
 };
 
 int total_minor_colors = sizeof(minor_color_names) / sizeof(minor_color_names[0]);
+#endif
