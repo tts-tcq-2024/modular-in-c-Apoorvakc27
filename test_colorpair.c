@@ -1,7 +1,10 @@
 
 #include <stdio.h>
 #include <assert.h>
+#include "colormapping.h"
+#include "colorpair.h"
 #include "test_colorpair.h"
+
 
 
 void test_pair_number_to_color(int pair_number,
