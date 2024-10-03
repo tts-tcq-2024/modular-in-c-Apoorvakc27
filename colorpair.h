@@ -2,6 +2,19 @@
 #ifndef COLOR_PAIR_H
 #define COLOR_PAIR_H
 
+typedef enum MajorColor 
+{WHITE,
+RED,
+BLACK,
+YELLOW,
+VIOLET} MajorColor;
+
+typedef enum MinorColor 
+{BLUE,
+ORANGE, 
+GREEN, 
+BROWN, 
+SLATE}MinorColor;
 
 typedef struct {
     enum MajorColor major_color;
