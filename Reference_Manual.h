@@ -1,3 +1,6 @@
+#ifndef REFERENCE_MANUAL_H
+#define REFERENCE_MANUAL_H
+
 typedef struct
 {
   int cable_num;
@@ -8,3 +11,4 @@ typedef struct
 void cable_pair_mapping_manual(map *map_manual);
 void cable_pair_manual_print(map *map_manual);
 
+#endif
