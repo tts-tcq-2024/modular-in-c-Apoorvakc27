@@ -1,11 +1,4 @@
 
-extern const char* major_color_names[];
-extern const char* minor_color_names[];
-extern int total_major_colors;
-extern int total_minor_colors;
-
-#include "colormapping.h"
-
 const char* major_color_names[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
