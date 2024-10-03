@@ -1,4 +1,4 @@
-// colormapping.c
+
 #include "colormapping.h"
 
 const char* major_color_names[] = {
