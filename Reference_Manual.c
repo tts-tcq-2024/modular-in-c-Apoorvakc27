@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "colorpair.h"
 #include "reference_manual.h"
-
+#include "colormapping.h"
 
 void cable_pair_mapping_manual(map *map_manual)
 {
