@@ -1,7 +1,7 @@
 
 #ifndef TEST_COLOR_PAIR_H
 #define TEST_COLOR_PAIR_H
-#include "colormapping.h"
+
 #include "colorpair.h"
 
 void test_pair_number_to_color(int pair_number, enum MajorColor expected_major_color, enum MinorColor expected_minor_color);
