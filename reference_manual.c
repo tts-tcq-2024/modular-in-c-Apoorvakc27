@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "colormapping.h"
 #include "colorpair.h"
 #include "reference_manual.h"
 
